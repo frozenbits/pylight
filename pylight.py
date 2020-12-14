@@ -43,9 +43,9 @@ def preset_execute(preset_choice):
     
     return("Preset selected!")
 
-def launch(ip_lampu):
+def launch(lamp_ip):
     # init
-    changeLamp(ip_lampu)
+    changeLamp(lamp_ip)
     manualMode = args.manual
        
     # yet another menu loop
@@ -121,4 +121,4 @@ def changeLamp(lamp_ip):
     lamp = Bulb(lamp_ip)
 
 if __name__ == "__main__":
-    launch("192.168.177.11")
+    launch("192.168.1.123")
