@@ -2,8 +2,8 @@
 A home project to control my Yeelight lamp.
 
 # How to use:
-Modify the IP in the "if \_\_name__ == "\_\_main__"" block.
-Then, simply call it from the commandline. 
+Modify the IP in the "if \_\_name__ == "\_\_main__"" block.<br />
+After that, you can call it from the commandline. <br />
 The default action will only turn it on or off.
 ```
 python pylight.py
